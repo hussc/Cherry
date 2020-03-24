@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="200" src="web/banner.png" />
+  <img height="200" width: 70% src="web/banner.png"  />
 </p>
 
 # Cherry
