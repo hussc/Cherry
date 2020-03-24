@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
 Cherry is a library on top of alamofire that allows you to build more expressive networking layer.
                        DESC
 
+  s.swift_version = '5.0'
   s.homepage         = 'https://github.com/hussc/Cherry'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
