@@ -1,15 +1,30 @@
 PODS:
-  - Cherry (0.1.0)
+  - Alamofire (4.9.1)
+  - Cherry (0.1.0):
+    - Alamofire
+    - PromisesSwift
+  - PromisesObjC (1.2.8)
+  - PromisesSwift (1.2.8):
+    - PromisesObjC (= 1.2.8)
 
 DEPENDENCIES:
   - Cherry (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PromisesObjC
+    - PromisesSwift
 
 EXTERNAL SOURCES:
   Cherry:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Cherry: 717dd68f327aec5b23b3c18c7380c1c8d951d185
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cherry: ff59085c77cb8410cc6832875c45bc1e195a4a6c
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PromisesSwift: 37bad6f4daddb02f7c9c531efe91e8b21c13ee2f
 
 PODFILE CHECKSUM: ca7948a16f394f30bb95d8f13d21b68a1cf89f15
 

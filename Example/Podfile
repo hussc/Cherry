@@ -9,9 +9,3 @@ target 'Cherry_Example' do
     
   end
 end
-
-target 'Cherry' do
-  pod 'Alamofire'
-  pod 'PromisesSwift'
-  
-end
