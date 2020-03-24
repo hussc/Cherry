@@ -1,0 +1,16 @@
+PODS:
+  - Cherry (0.1.0)
+
+DEPENDENCIES:
+  - Cherry (from `../`)
+
+EXTERNAL SOURCES:
+  Cherry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cherry: 717dd68f327aec5b23b3c18c7380c1c8d951d185
+
+PODFILE CHECKSUM: ca7948a16f394f30bb95d8f13d21b68a1cf89f15
+
+COCOAPODS: 1.9.1

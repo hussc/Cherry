@@ -1,0 +1,6 @@
+framework module Cherry {
+  umbrella header "Cherry-umbrella.h"
+
+  export *
+  module * { export * }
+}
