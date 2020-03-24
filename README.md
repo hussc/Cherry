@@ -1,3 +1,7 @@
+<p align="center">
+  <img height="200" src="web/banner.png" />
+</p>
+
 # Cherry
 
 [![CI Status](https://img.shields.io/travis/hussc/Cherry.svg?style=flat)](https://travis-ci.org/hussc/Cherry)
