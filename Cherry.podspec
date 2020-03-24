@@ -39,6 +39,6 @@ Cherry is a library on top of alamofire that allows you to build more expressive
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire'
+   s.dependency 'Alamofire', '~> 5.0'
    s.dependency 'PromisesSwift'
 end

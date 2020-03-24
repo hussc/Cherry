@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of Cherry.",
   "description": "Cherry is a library on top of alamofire that allows you to build more expressive networking layer.",
+  "swift_versions": "5.0",
   "homepage": "https://github.com/hussc/Cherry",
   "license": {
     "type": "MIT",
@@ -21,10 +22,11 @@
   "source_files": "Cherry/Classes/**/*",
   "dependencies": {
     "Alamofire": [
-
+      "~> 5.0"
     ],
     "PromisesSwift": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

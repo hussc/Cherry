@@ -12,21 +12,21 @@ import Alamofire
 public struct Sessions {
     static var `default` = normalSession
         
-    public static let normalSession: SessionManager = {
-        return SessionManager.default
+    public static let normalSession: Session = {
+        return Session.default
     }()
     
-    public static func use(session: SessionManager){
+    public static func use(session: Session){
         self.default = session
     }
 }
 
 #if canImport(ResponseDetective)
 public extension Sessions {
-    public static let responseDetectiveSession: SessionManager = {
+    public static let responseDetectiveSession: Session = {
         let configuration = URLSessionConfiguration.default
         ResponseDetective.enable(inConfiguration: configuration)
-        return SessionManager(configuration: configuration)
+        return Session(configuration: configuration)
     }()
 }
 #endif

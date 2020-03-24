@@ -1,7 +1,7 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.0.5)
   - Cherry (0.1.0):
-    - Alamofire
+    - Alamofire (~> 5.0)
     - PromisesSwift
   - PromisesObjC (1.2.8)
   - PromisesSwift (1.2.8):
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Cherry: ff59085c77cb8410cc6832875c45bc1e195a4a6c
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  Cherry: 1a1c0f64f9b843468cf0c4c543de8e6c96de7a14
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   PromisesSwift: 37bad6f4daddb02f7c9c531efe91e8b21c13ee2f
 

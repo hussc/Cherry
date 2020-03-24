@@ -44,7 +44,7 @@ public class NetworkRequest<R: NetworkRoute>: URLRequestConvertible {
 
 
 extension NetworkRequest {
-    func handle(response: DataResponse<Data>) -> Promise<ResponseType> {
+    func handle(response: AFDataResponse<Data>) -> Promise<ResponseType> {
         return Promise<ResponseType>(on: .main){ (fullfill, reject) in
             switch response.result {
             case .failure(let error):
