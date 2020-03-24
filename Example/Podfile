@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Cherry_Example' do
+  pod 'Cherry', :path => '../'
+
+  target 'Cherry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
