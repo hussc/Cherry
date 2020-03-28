@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cherry
 
 class ViewController: UIViewController {
 
